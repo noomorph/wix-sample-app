@@ -1,3 +1,4 @@
+.sass-cache
 lib-cov
 *.seed
 *.log
@@ -10,6 +11,6 @@ lib-cov
 pids
 logs
 results
-
+dist
 npm-debug.log
 node_modules
