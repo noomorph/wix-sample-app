@@ -153,8 +153,8 @@ grunt.loadNpmTasks( 'grunt-preprocess' );
 
 grunt.registerTask( 'build', [ 'clean', 'concat', 'sass', 'preprocess', 'cssmin', 'uglify' ] );
 grunt.registerTask( 'test', [ 'csslint', 'jshint', 'concat', 'jasmine' ] );
+grunt.registerTask( 'release', [ 'env:prod', 'build', 'test' ] );
 grunt.registerTask( 'serve', [ 'build', 'test', 'connect', 'watch' ] );
-grunt.registerTask( 'debug', [ 'env:dev', 'serve' ] );
-grunt.registerTask( 'default', [ 'env:prod', 'serve' ] );
+grunt.registerTask( 'default', [ 'env:dev', 'serve' ] );
 
 };
