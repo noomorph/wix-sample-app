@@ -14,9 +14,7 @@
     "node": "~0.10.0"
   },
   "dependencies": {
-    "express": "~2.5.9"
-  },
-  "devDependencies": {
+    "express": "~2.5.9",
     "grunt": "~0.4.0",
     "grunt-contrib-jshint": "~0.2.0",
     "grunt-contrib-cssmin": "~0.4.1",
