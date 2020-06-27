@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "express": "~3.0.0",
-    "newrelic": "~1.1.1"
+    "newrelic": "~1.13.3"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
